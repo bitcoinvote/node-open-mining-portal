@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/zone117x/node-open-mining-portal",
+    "homepage": "https://github.com/bitcoinvote/node-open-mining-portal",
     "bugs": {
-        "url": "https://github.com/zone117x/node-open-mining-portal/issues"
+        "url": "https://github.com/bitcoinvote/node-open-mining-portal/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -28,10 +28,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-open-mining-portal.git"
+        "url": "https://github.com/bitcoinvote/node-open-mining-portal.git"
     },
     "dependencies": {
-        "stratum-pool": "git://github.com/zone117x/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/bitcoinvote/node-stratum-pool.git",
         "dateformat": "1.0.12",
         "node-json-minify": "*",
         "redis": "0.12.1",
@@ -43,7 +43,7 @@
         "dot": "*",
         "colors": "*",
         "node-watch": "*",
-        "request": "*",
+        "request": "2.69.0",
         "nonce": "*",
         "bignum": "0.12.5",
         "extend": "*"
