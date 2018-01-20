@@ -277,7 +277,7 @@ module.exports = function(logger, portalConfig, poolConfigs){
             hashrate = hashrate / 1000;
 			i++;
         } while (hashrate > 1000);
-        return hashrate.toFixed(2) + byteUnits[i];
+        return hashrate.toFixed(4) + byteUnits[i];
     };
 
 };
